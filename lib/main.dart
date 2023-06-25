@@ -128,12 +128,11 @@ class HomePage extends GetView<HomeController> {
           ),
           TextButton(
             child: Text('Source App', style: TextStyle(fontSize: size.width * 0.06,fontWeight: FontWeight.w300),textAlign: TextAlign.center),
-            onPressed: () => controller.openUrl('https://github.com/hossienhunta'),
+            onPressed: () => controller.openUrl('https://github.com/HossienHunTa/V2Pack'),
           ),
 
         ],
       ),),
     ));
-    throw UnimplementedError();
   }
 }
